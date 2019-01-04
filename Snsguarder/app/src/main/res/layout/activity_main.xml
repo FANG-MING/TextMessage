@@ -1,0 +1,195 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logbg"
+   >
+      
+ <ScrollView
+      android:fitsSystemWindows="true"  
+     android:clipToPadding="true"  
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+  
+     
+     
+<LinearLayout 
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ex_layout"
+    >
+     <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:orientation="vertical"
+       android:gravity="center"
+   
+       >
+        <FrameLayout 
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            >
+         <Button 
+             android:layout_width="100dp"
+             android:layout_height="100dp"
+             android:background="@drawable/cirbg"
+             />
+         <TextView
+             android:layout_width="100dp"
+             android:layout_height="100dp"
+             android:gravity="center"
+             android:text="短信防护中"
+             android:textColor="#369582"
+             />
+         </FrameLayout>
+     </LinearLayout>
+    <LinearLayout
+            android:background="#aaffffff"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <FrameLayout 
+            android:layout_margin="10dp"
+            android:layout_width="203dp"
+            android:layout_height="203dp"
+            
+            >
+            <View 
+                android:layout_gravity="center"
+             android:layout_width="203dp"
+            android:layout_height="203dp"
+            android:background="#33ffff"
+                />
+         <Button 
+               android:layout_gravity="center"
+             android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/inboxbg"
+            android:text="拦截箱"
+            android:textSize="29sp"
+            android:textColor="#368962"
+            android:id="@+id/sns_box_btn"
+            />
+        </FrameLayout>
+           <FrameLayout 
+            android:layout_margin="10dp"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            
+            >
+            <View 
+                android:layout_gravity="center"
+             android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:background="#66ff33"
+                />
+            <Button 
+              android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/blackbg"
+             android:text="黑白名单"
+             android:textSize="17sp"
+            android:textColor="#ff2922"
+            android:id="@+id/sns_black_btn"
+            />
+             </FrameLayout>
+    </LinearLayout>
+       <LinearLayout
+                 android:background="#aaffffff"
+          android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+      <FrameLayout 
+            android:layout_margin="10dp"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            
+            >
+            <View 
+                android:layout_gravity="center"
+             android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:background="#66ffee"
+                />     
+        <Button 
+             android:layout_gravity="center" 
+            
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/wmdbg"
+            android:text="关键字"
+            android:textSize="11sp"
+            android:textColor="#631025"
+              android:id="@+id/sns_text_btn"
+            />
+         </FrameLayout>
+         
+        <FrameLayout 
+            android:layout_margin="10dp"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            
+            >
+            <View 
+                android:layout_gravity="center"
+             android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:background="#33ffff"
+                />  
+              <ImageView 
+                     android:layout_gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/setb"
+                    />
+            <Button 
+             android:layout_gravity="center"
+             android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="#aaffffff"
+            android:id="@+id/sns_set_btn"
+            android:textColor="#aa3596"
+            />
+              
+              </FrameLayout>
+    </LinearLayout>
+       </LinearLayout>
+</ScrollView>
+       
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:id="@+id/wel_layout"
+    android:visibility="gone"
+    >
+       <TextView 
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="2"
+       android:gravity="center"
+       android:text="短信管家"
+       android:textSize="45sp"
+       android:textStyle="bold"
+       android:textColor="#2266ff"
+       /> 
+      <View 
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:background="#aa2266ff"
+          /> 
+</LinearLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#eeeeee"
+    >
+     <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加过滤号码"
+        android:gravity="center"
+        android:textSize="19sp"
+        android:textColor="#330011"
+        android:layout_gravity="top"
+        />
+   
+  <EditText 
+      android:layout_gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:background="#22333399"
+      android:hint="电话号码"
+      android:id="@+id/add_blw_edit"
+      android:numeric="integer"
+      android:maxLength="11"
+      
+      />
+  <Button 
+      android:layout_marginBottom="10dp"
+      android:layout_gravity="bottom|center"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/commit_hover"
+      android:text="添加"
+      android:id="@+id/add_blw_add_btn"
+      />
+ 
+</FrameLayout>

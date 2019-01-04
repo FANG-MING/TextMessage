@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   <TextView 
+       
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="11sp"
+       android:textColor="#663333"
+       android:text="10010"
+       android:id="@+id/inbox_adp_num"
+       /> 
+     <TextView 
+       
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="13sp"
+       android:textColor="#886666"
+       android:text="短信"
+       android:gravity="center"
+          android:id="@+id/inbox_adp_content"
+       />  
+       <TextView 
+       
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="10sp"
+       android:textColor="#663333"
+       android:text="10010"
+       android:id="@+id/inbox_adp_date"
+       android:gravity="right"
+       /> 
+       <View 
+           android:layout_width="match_parent"
+           android:layout_height="0.5dp"
+           android:background="#aaaaaa"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           />
+</LinearLayout>

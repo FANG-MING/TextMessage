@@ -1,0 +1,4 @@
+#Fri Jan 04 14:46:30 CST 2019
+base.0=E\:\\TIM  wenjian\\Snsguarder\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex
